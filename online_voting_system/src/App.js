@@ -1,14 +1,13 @@
 // import { useState, useEffect } from 'react';
 import './App.css';
 import * as React from 'react';
-import SignIn from './Signin';
-import SignUp from './Signup';
 import FixedFooter from './FixedFooter';
-
+import Header from './Header';
+import SignUp from './Signup';
 function App() {
 
   return (
-    <><SignUp></SignUp><FixedFooter></FixedFooter></>
+    <><Header></Header><SignUp></SignUp><FixedFooter></FixedFooter></>
   );
 }
 
